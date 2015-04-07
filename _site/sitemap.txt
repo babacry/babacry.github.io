@@ -12,4 +12,3 @@ http://babacry.github.io/sitemap.txt
 http://babacry.github.io/tags.html
 
 http://babacry.github.io/books/sparse%20and%20redundant%20representation/2015/04/07/Sparse-Ch3
-http://babacry.github.io/jekyll/update/2015/03/29/welcome-to-jekyll
