@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>babacry's blog</title>
+ <link href="http://babacry.github.io/" rel="self"/>
+ <link href="http://babacry.github.io"/>
+ <updated>2015-04-08T00:02:53+08:00</updated>
+ <id>http://babacry.github.io</id>
+ <author>
+   <name>babacry</name>
+   <email>chenrenyi.babacry@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Chapter3 Pursuit Algorithms-Practice</title>
+   <link href="http://babacry.github.io/books/sparse%20and%20redundant%20representation/2015/04/07/Sparse-Ch3"/>
+   <updated>2015-04-07T00:00:00+08:00</updated>
+   <id>http://babacry.github.io/books/sparse%20and%20redundant%20representation/2015/04/07/Sparse-Ch3</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ 
+</feed>

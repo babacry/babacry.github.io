@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>babacry's blog</title>
+        <description>babacry's blog - babacry</description>
+        <link>http://babacry.github.io</link>
+        <link>http://babacry.github.io</link>
+        <lastBuildDate>2015-04-08T00:02:53+08:00</lastBuildDate>
+        <pubDate>2015-04-08T00:02:53+08:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Chapter3 Pursuit Algorithms-Practice</title>
+                <description>
+</description>
+                <link>http://babacry.github.io/books/sparse%20and%20redundant%20representation/2015/04/07/Sparse-Ch3</link>
+                <guid>http://babacry.github.io/books/sparse%20and%20redundant%20representation/2015/04/07/Sparse-Ch3</guid>
+                <pubDate>2015-04-07T00:00:00+08:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
