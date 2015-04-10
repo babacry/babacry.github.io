@@ -134,4 +134,9 @@ port:    4000
 host:    127.0.0.1
 baseurl: "" # does not include hostname
 
-markdown: kramdown
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+

@@ -14,10 +14,12 @@ tags : [Analysis, Fourier Analysis]
 
 #### 1.1 Vector spaces and inner product  
 **Vector space**  
-1. '+' between elements:  $$X+Y=Y+X\\(X+Y)+Z=X+(Y+Z)...$$  
-2. $$\lambda X \in V$$  
+
+* '+' between elements:  $$X+Y=Y+X\\(X+Y)+Z=X+(Y+Z)$$  
+* $$\lambda X \in V$$  
 
 **Inner Product**  
+
 * on a vector space over $$\mathbb{R}$$   
     1. symmetric: $$(X,Y)=(Y,X)$$  
     2. linear: $$(aX+bY, Z) = a(X,Z)+b(Y,Z)$$  
@@ -28,4 +30,3 @@ tags : [Analysis, Fourier Analysis]
     3. positive-definite: $$(X,X)\ge 0$$    
 
 **Three important results about orthogonal**  
-1.
