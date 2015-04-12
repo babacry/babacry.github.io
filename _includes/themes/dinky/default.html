@@ -46,7 +46,7 @@
           <h4>about</h4>
           <ul>
             {% if site.author.email %}
-            <li class="contact"><address> <span class="fn email">{{ site.author.email }}</span></address></li>
+            <li class="contact"><a href="mailto:chenrenyi.babacry@gmail.com">my email</a> </li>
             {% endif %}
             {% if site.author.github %}
             <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
@@ -75,6 +75,9 @@
       {{ content }}
       </section>
 
+      <footer>
+      <small>Hosted on <a href="http://pages.github.com/">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
   </body>
