@@ -8,7 +8,7 @@ tagline: Supporting tagline
 - DO SOME PROFESSIONAL/OTHER READINGS HERE.   
 - RECORD SOME INTERESTING THINGS HERE.  
 - MAY BE SOME THINKING HERE.  
-- WHATEVER, BE MYSLEF, BE FREE...  
+- WHATEVER, BE MYSELF, BE FREE...  
 [ABOUT ME]({{ site.url }}/about.html)   
 
 ## Recent Articles  
