@@ -144,36 +144,7 @@ $$
 F(t) = \left\{\begin{array}{ll} 
 \frac{f(\theta_0-t) - f(\theta_0)}{t} & if \, t \neq 0 \,and\, |t| < \pi \\ 
 -f'(\theta_0) & if \, t = 0
-\end{array} \right.
-$$    
-Since $$f$$ is differentiable at $$\theta_0$$, so $$F$$ is bounded and integrable.  
-$$
-S_N(f)(\theta_0) - f(\theta_0) = \frac{1}{2\pi} \int_{-\pi}^{\pi} F(t)tD_N(t)dt\\
-F(t)tD_N(t) = \frac{F(t)t\sin(N+1)t }{sin(\frac{t}{2})} = \underline{F(t)t\frac{\cos(\frac{t}{2})}{\sin(\frac{t}{2})}}_{{1}} \sin(Nt) + \underline{F(t)t}_{{2}} \cos(Nt)
-$$  
-both $${1, 2}$$ are integrable, according to Riemann-Lebesgue lemma, we have $$|S_N(f)(\theta_0) - f(\theta_0)| \rightarrow 0 \, as\, N \rightarrow \infty $$
-
-**Theorem 2.2** Suppose $$f$$ and $$g$$ are two integrable functions defined on the circle, and for some $$\theta_0$$ there exists an open interval $$I$$ containing $$\theta_0$$ such that  
-\\[
-f(\theta) = g(\theta) \quad \forall \theta \in I
-\\]
-Then, $$S_N(f)(\theta_0)-S_N(g)(\theta_0)) \rightarrow 0$$ as N tends to infinity    
-
-### 2.2 A continuous function with diverging Fourier series
-
-Theorem 2.1 fails when replace differentiable with weaker assumption continuous.  
-We construct the counter-example with principle "symmetry-breaking".  
-Split the Fourier series $$\sum_{n = -\infty}^{\infty} a_n e^{in\theta}$$ to $$\sum_{n \ge 0} a_n e^{in\theta}$$ and $$\sum_{n < 0} a_n e^{in\theta}$$ 
-
-**Sawtooth function $$f$$**
-
-1. odd  
-2. $$f(\theta) = i(\pi -\theta) \quad$$ when $$\,\theta \in (0,\pi)$$
-
-![Sawtooth Function]({{ site.url }}/assets/mathPic/sawtoothFunction.png)
-$$f(\theta) \sim \sum_{n\neq 0} \frac{e^{in\theta}}{n}$$ 
-while if breaking symmetry ,
-$$\sum_{n=-\infty}^{-1}\frac{e^{in\theta}}{n}$$ is not the Fourier series of a Riemann integrable function(see appendix).  
+\end
 
 Define two functions on $$[-\pi, \pi]$$:  
 $$f_N(\theta) = \sum_{1 \le n \le N}\frac{e^{in\theta}}{n}\quad and \quad \widetilde{f}_N({\theta}) = \sum_{-N\le n\le -1}\frac{e^{in\theta}}{n}$$.  
