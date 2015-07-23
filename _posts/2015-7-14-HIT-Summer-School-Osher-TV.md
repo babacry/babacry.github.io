@@ -76,8 +76,8 @@ From the example
 
 Contradiction:
 
-* The image $$u$$ must belong to $$H^1(\Omega)$$ (whose derivative is square-integrable)
-* Functions in $$H^1(\Omega)$$ cannot present discontinuities across hypersurfaces
+* The image $$u$$ must belong to $$H^1(\Omega)$$ (whose derivative is square-integrable)  
+* Functions in $$H^1(\Omega)$$ cannot present discontinuities across hypersurfaces  
 
 * A quick argument which justify above
     + Assume $$u: [0, 1] \rightarrow \mathbb{R} \quad u \in H^1(0, 1)$$
