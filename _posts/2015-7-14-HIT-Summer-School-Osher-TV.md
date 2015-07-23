@@ -27,8 +27,7 @@ Total variation was firstly introduced in 1992 by Rudin, Osher and Fatemi.
 * **a priori probability density**: $$P(u) \sim e^{-p(u)}$$
 
 Use Bayes' Rule $$P(u\lvert g)P(g) = P(g\lvert u)P(u)$$, and $$n \sim e^{-\frac{1}{2{\sigma}^2 \sum_{i, j} \lvert g_{i, j} - (Au)_{i, j} \rvert^2}}$$, $$P(u) \sim e^{-p(u)}$$,  
-we have  
-
+we have
 \\[
     p(u\lvert g) \sim \frac{1}{Z(g)} e^{ - p(u) - \frac{1}{2\sigma^2} \sum_{i, j} \lvert g_{i, j} - (Au)_{i, j}\rvert^2}
 \\]
@@ -36,8 +35,7 @@ we have
 ($$Z(g)$$ is the normalization factor)
 
 It give the "maximun a posterior"(MAP) problem: find the maximum of $$p(u\lvert g)$$  
-an equivalent version is the minmum problem:  
-
+an equivalent version is the minmum problem:
 \\[
     \min_u p(u) + \frac{1}{2\sigma^2} \sum_{i, j} \lvert g_{i, j} - (Au)_{i, j}\rvert^2
 \\]
@@ -46,8 +44,7 @@ an equivalent version is the minmum problem:
 
 Idea: minimizing an energy. 
 Use A = Id in MAP problem in the following discussion.  
-MAP problem:  
-
+MAP problem:
 \\[
     \min_{u\in L^2(\Omega)} \lambda F(u) + \frac{1}{2}\int_{\Omega} \lvert u(x) - g(x) \rvert^2 dx_{}
 \\]
