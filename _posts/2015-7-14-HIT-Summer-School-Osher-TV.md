@@ -135,9 +135,9 @@ Here, we conclude the disadvantages of above ideas
 
 In the context of image reconstruction, it was proposed first by Rudin, Osher and Fatemi to consider the "Total Variation" as a regularizer $$F(u)$$ for (MAPc)
 
-* It can be seen as extension of energt $$F(u) = \int_\Omega \lvert \nabla u(x) \rvert dx$$
-* It is well-defined for $$C^1(W^{1, 1})$$ functions
-* Convex
+* It can be seen as extension of energy $$F(u) = \int_\Omega \lvert \nabla u(x) \rvert dx$$  
+* It is well-defined for $$C^1(W^{1, 1})$$ functions  
+* Convex  
 
 But, how to deal with the problem raised earlier($$W^{1, 1}$$ functions cannot present discontinuity across a line)?  
 Consider the problem:
@@ -149,9 +149,9 @@ with $$ g = \chi_{(\frac{1}{2}, 1)} $$
 Denote $$ \varepsilon = \lambda \int_0^1\lvert u'(t) \rvert dt + \int_0^1 \lvert u(t) - g(t) \rvert^2 dt $$
 and assume the minimizer is $$u$$ if it exists.  
 
-* For $$v = \{u, 1\}$$, $$\varepsilon(v) \le \varepsilon(u) \Rightarrow u \le 1 $$
-* By the same argument above, we have $$ u \ge 0 $$
-* By symmetry, $$ t \mapsto 1 - u(1-t) $$ has the same energy as $$u$$
+* For $$v = \{u, 1\}$$, $$\varepsilon(v) \le \varepsilon(u) \Rightarrow u \le 1 $$  
+* By the same argument above, we have $$ u \ge 0 $$  
+* By symmetry, $$ t \mapsto 1 - u(1-t) $$ has the same energy as $$u$$  
 * By convexity  
 $$
     \varepsilon (\frac{1-u(1-\cdot) + u}{2}) \le \frac{1}{2} \varepsilon(1-u(1-\cdot)) + \frac{1}{2} \varepsilon(u) = \varepsilon(u)
@@ -169,7 +169,7 @@ So
 \\]
 Which means,
 
-* If $$\lambda \ge \frac{1}{2}$$, then $$u \equiv \frac{1}{2}$$ ("=" holds of above equition)
+* If $$\lambda \ge \frac{1}{2}$$, then $$u \equiv \frac{1}{2}$$ ("=" holds of above equition)  
 * If $$\lambda < \frac{1}{2}$$, then $$\varepsilon (u) \ge \lambda(M-m) + m^2 = \lambda(1-2m) + m^2 \ge \lambda(1-\lambda)$$    
 
 * Construct $$\{ u_n \}_{n=2}^\infty$$  
@@ -184,7 +184,7 @@ Which means,
 Here is the picture of $$u_n$$
 ![]({{site.url}}/assets/mathPic/TV-pic2.png)
 
-* So, $$ \varepsilon (u_n) \le \lambda (1- 2\lambda) + (1 - \frac{2}{n}) \lambda^2 + \frac{2}{n} \rightarrow \lambda(1-\lambda)$$ as $$ n \rightarrow \infty$$ 
+* So, $$ \varepsilon (u_n) \le \lambda (1- 2\lambda) + (1 - \frac{2}{n}) \lambda^2 + \frac{2}{n} \rightarrow \lambda(1-\lambda)$$ as $$ n \rightarrow \infty$$   
 * Hence, $$\inf_{u\in\{u_n\}} \varepsilon(u) = \lambda(1 - \lambda)$$
 
 But $$\lim_{n\rightarrow \infty} u_n$$ is not differentiable.  
