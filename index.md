@@ -1,14 +1,9 @@
 ---
 layout: page 
-title: Hi, I am babacry! 
+title: Hallo 
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-- UPDATE MYSELF HERE.  
-- DO SOME PROFESSIONAL/OTHER READINGS HERE.   
-- RECORD SOME INTERESTING THINGS HERE.  
-- MAY BE SOME THINKING HERE.  
-- WHATEVER, BE MYSELF, BE FREE...  
 [ABOUT ME]({{ site.url }}/about.html)   
 
 ## Recent Articles  

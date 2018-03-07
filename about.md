@@ -6,7 +6,4 @@ group: navigation
 ---
 {% include JB/setup %}
 
-- I am now an undergraduate student in Nankai University.    
-- I grow up in Yangzhou, Jiangsu, China.
-- I major in math.  
-- I am also into computer related things.  
+- I am now a graduate student of Math in Georgia Tech.
