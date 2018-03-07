@@ -1,9 +1,8 @@
 ---
-layout: page 
+layout: default
 title: Hallo 
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
 [ABOUT ME]({{ site.url }}/about.html)   
 
 ## Recent Articles  
